@@ -1,0 +1,27 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_vars.scss";
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Jura";
+    font-size: 1.4rem;
+    color: $main;
+    font-weight: 400;
+    background:rgb(29, 58, 86) ;
+   
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 0;
+}
+.container {
+    max-width: 125.5rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+
+}
